@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="330" viewBox="0 0 520 330" role="img" aria-label="Animated developer workstation illustration">
+<defs>
+  <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081427"/><stop offset="1" stop-color="#101a35"/></linearGradient>
+  <linearGradient id="desk" x1="0" x2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="520" height="330" rx="24" fill="#080d18"/>
+<g opacity=".14" stroke="#2dd4bf"><path d="M20 45h480M20 85h480M20 125h480M20 165h480M20 205h480"/><path d="M55 20v250M105 20v250M155 20v250M205 20v250M255 20v250M305 20v250M355 20v250M405 20v250M455 20v250"/></g>
+<circle cx="444" cy="58" r="32" fill="#7c3aed" opacity=".15"><animate attributeName="r" values="25;38;25" dur="4s" repeatCount="indefinite"/></circle>
+<rect x="62" y="64" width="290" height="168" rx="14" fill="url(#screen)" stroke="#374151" stroke-width="3"/>
+<rect x="80" y="82" width="254" height="130" rx="7" fill="#050b16"/>
+<g font-family="monospace" font-size="12">
+ <text x="94" y="108" fill="#7ee787">const</text><text x="137" y="108" fill="#c4b5fd"> manuja</text><text x="188" y="108" fill="#e5e7eb"> = {</text>
+ <text x="108" y="132" fill="#60a5fa">role:</text><text x="154" y="132" fill="#f9a8d4"> "developer + designer"</text>
+ <text x="108" y="156" fill="#60a5fa">focus:</text><text x="161" y="156" fill="#f9a8d4"> "AI | web | creative"</text>
+ <text x="108" y="180" fill="#60a5fa">status:</text><text x="168" y="180" fill="#f9a8d4"> "building..."</text>
+ <text x="94" y="202" fill="#e5e7eb">}</text>
+ <rect x="195" y="190" width="8" height="15" rx="1" fill="#22d3ee"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+</g>
+<rect x="168" y="232" width="78" height="14" rx="5" fill="#1f2937"/><rect x="145" y="245" width="125" height="9" rx="4" fill="#374151"/>
+<rect x="34" y="268" width="452" height="20" rx="8" fill="url(#desk)"/>
+<g transform="translate(360 94)">
+ <circle cx="52" cy="52" r="45" fill="#122033" stroke="#22d3ee" stroke-width="3"/>
+ <path d="M22 52c8-18 20-28 30-28s22 10 30 28c-7 5-14 8-30 8s-23-3-30-8z" fill="#f2c9a5"/>
+ <path d="M19 45c4-25 16-38 34-38 19 0 34 17 35 40-12-7-25-11-39-10-11 1-21 4-30 8z" fill="#1f2937"/>
+ <rect x="21" y="46" width="17" height="12" rx="5" fill="#0f172a" stroke="#22d3ee"/><rect x="66" y="46" width="17" height="12" rx="5" fill="#0f172a" stroke="#22d3ee"/><path d="M38 51h28" stroke="#22d3ee"/>
+ <path d="M28 88c7-13 16-19 26-19 12 0 21 6 28 19v38H28z" fill="#7c3aed"/>
+ <path d="M14 86q-15 18-6 42M92 86q15 18 6 42" fill="none" stroke="#f2c9a5" stroke-width="8" stroke-linecap="round"/>
+</g>
+<g fill="#22d3ee" filter="url(#glow)"><circle cx="38" cy="44" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="1.7s" repeatCount="indefinite"/></circle><circle cx="468" cy="146" r="3"><animate attributeName="cy" values="146;124;146" dur="2.6s" repeatCount="indefinite"/></circle><circle cx="444" cy="232" r="2"><animate attributeName="cx" values="434;464;434" dur="3.2s" repeatCount="indefinite"/></circle></g>
+<text x="36" y="316" fill="#94a3b8" font-family="monospace" font-size="12">DESIGN → CODE → TEST → REFINE → SHIP</text>
+</svg>
