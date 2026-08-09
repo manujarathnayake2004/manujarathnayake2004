@@ -56,11 +56,11 @@ I enjoy combining **software engineering** with **visual design** — building p
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=manujarathnayake2004&bg_color=050816&color=00e5ff&line=7c3aed&point=ff3cac&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=manujarathnayake2004&bg_color=050816&color=00e5ff&line=7c3aed&point=ff3cac&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
 
-<br/>
+<br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=manujarathnayake2004&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=6" alt="GitHub trophies" />
+<img width="95%" src="https://github-profile-trophy-liard-delta.vercel.app/?username=manujarathnayake2004&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=6" alt="GitHub trophies" />
 
 </div>
 
@@ -73,7 +73,7 @@ I enjoy combining **software engineering** with **visual design** — building p
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manujarathnayake2004/manujarathnayake2004/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manujarathnayake2004/manujarathnayake2004/output/github-contribution-grid-snake.svg" />
-  <img alt="Animated contribution snake" src="https://raw.githubusercontent.com/manujarathnayake2004/manujarathnayake2004/output/github-contribution-grid-snake-dark.svg" />
+  <img width="95%" alt="Animated contribution snake" src="https://raw.githubusercontent.com/manujarathnayake2004/manujarathnayake2004/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
