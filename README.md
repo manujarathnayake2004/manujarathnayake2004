@@ -40,7 +40,7 @@
 
 <div align="center">
 
-<img src="./assets/tech-stack.svg" width="100%" alt="Animated technology matrix with development, design, AI and video editing tools" />
+<img src="./assets/tech-stack.svg?v=4" width="100%" alt="Animated technology matrix with development, design, AI and video editing tools" />
 
 </div>
 
