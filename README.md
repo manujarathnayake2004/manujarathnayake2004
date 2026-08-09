@@ -16,23 +16,23 @@
 
 ---
 
-## ⚡ `whoami`
+## 🧑‍💻 About Me
 
-```yaml
-name: Manuja Rathnayake
-role: Software Engineering Student + Graphic Designer
-location: Sri Lanka
-focus:
-  - Full-Stack Development
-  - Python & Flask
-  - Artificial Intelligence
-  - Machine Learning
-  - UI/UX & Visual Design
-currently_building: "Useful software with clean, creative interfaces"
-mindset: "Learn. Build. Improve. Repeat."
-```
+<div align="center">
 
-I enjoy combining **software engineering** with **visual design** — building projects that are not only functional, but polished, intuitive and memorable.
+<img src="./assets/about.svg" width="95%" alt="Animated Manuja developer about card" />
+
+</div>
+
+- 🎓 B.Sc. Software Engineering undergraduate
+- 🤖 Interested in Artificial Intelligence, Machine Learning and intelligent web systems
+- 💻 Building projects with Python, Flask, Java, JavaScript, HTML, CSS and MySQL
+- 📊 Interested in data analytics, predictive modelling and practical ML applications
+- 🎨 Graphic Designer working with Figma, Photoshop, Illustrator and creative digital tools
+- 🚀 Developing software and AI projects through practical university and personal work
+- 📍 Based in Sri Lanka
+- 📩 Reach me at [manujarathnayake2004@gmail.com](mailto:manujarathnayake2004@gmail.com)
+- 🌐 Portfolio: [manujarathnayake2004.github.io/manujarathnayake](https://manujarathnayake2004.github.io/manujarathnayake/)
 
 ---
 
