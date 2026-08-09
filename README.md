@@ -36,17 +36,11 @@
 
 ---
 
-## 🧬 Tech DNA
+## 🛠️ Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,java,js,html,css,flask,mysql,git,github,vscode,figma,ps,ai&perline=7" alt="Technology stack" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Software%20Engineering-0B1026?style=for-the-badge&logo=codio&logoColor=00E5FF" />
-<img src="https://img.shields.io/badge/Graphic%20Design-0B1026?style=for-the-badge&logo=adobecreativecloud&logoColor=FF3CAC" />
-<img src="https://img.shields.io/badge/AI%20%26%20ML-0B1026?style=for-the-badge&logo=probot&logoColor=7C3AED" />
+<img src="./assets/tech-stack.svg" width="100%" alt="Animated technology matrix with development, design, AI and video editing tools" />
 
 </div>
 
