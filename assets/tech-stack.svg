@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-label="Animated technology matrix with development, design, AI and editing tools">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#03111f"/><stop offset="0.5" stop-color="#07142a"/><stop offset="1" stop-color="#020817"/></linearGradient>
+  <linearGradient id="beam" x1="0" x2="1"><stop stop-color="#00e5ff" stop-opacity="0"/><stop offset="0.5" stop-color="#00e5ff" stop-opacity="0.8"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+  <radialGradient id="orb"><stop stop-color="#22d3ee" stop-opacity="0.55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#38bdf8" stroke-opacity="0.055"/></pattern>
+  <style>
+    .card{fill:#07111f;fill-opacity:.93;stroke-width:2}
+    .name{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#f8fafc}
+    .sub{font:700 9px 'Segoe UI',Arial,sans-serif;letter-spacing:1px}
+    .ico{font:800 16px 'Segoe UI',Arial,sans-serif;text-anchor:middle;dominant-baseline:middle}
+    .f1{animation:f1 4.6s ease-in-out infinite}.f2{animation:f2 5.4s ease-in-out infinite}.f3{animation:f3 6.2s ease-in-out infinite}
+    @keyframes f1{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    @keyframes f2{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+    @keyframes f3{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+  </style>
+</defs>
+<rect x="2" y="2" width="1196" height="586" rx="30" fill="url(#bg)" stroke="#0ea5e9" stroke-opacity=".5" stroke-width="2"/>
+<rect x="2" y="2" width="1196" height="586" rx="30" fill="url(#grid)"/>
+<circle cx="1060" cy="90" r="140" fill="url(#orb)" opacity=".26"><animate attributeName="r" values="115;155;115" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="130" cy="500" r="110" fill="#7c3aed" opacity=".06"><animate attributeName="cx" values="100;220;100" dur="9s" repeatCount="indefinite"/></circle>
+<text x="600" y="55" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="800">Animated Technology Matrix</text>
+<text x="600" y="79" text-anchor="middle" fill="#22d3ee" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="4">LANGUAGES • FRAMEWORKS • TOOLS • DESIGN • VIDEO • AI</text>
+<path d="M390 98H810" stroke="url(#beam)" stroke-width="2"/>
+<rect x="70" y="108" width="1060" height="3" rx="2" fill="url(#beam)" opacity=".7"><animate attributeName="y" values="108;540;108" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="8s" repeatCount="indefinite"/></rect>
+
+<!-- row 1 -->
+<g class="f1" transform="translate(55 135)"><rect class="card" width="200" height="72" rx="16" stroke="#38bdf8"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3.2s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#12345a"/><text class="ico" x="38" y="36" fill="#facc15">Py</text><text class="name" x="70" y="31">Python</text><text class="sub" x="70" y="49" fill="#38bdf8">LANGUAGE</text></g>
+<g class="f2" transform="translate(280 135)"><rect class="card" width="200" height="72" rx="16" stroke="#f59e0b"><animate attributeName="stroke-opacity" values=".4;1;.4" dur="3.8s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#5a3510"/><text class="ico" x="38" y="36" fill="#f59e0b">J</text><text class="name" x="70" y="31">Java</text><text class="sub" x="70" y="49" fill="#f59e0b">LANGUAGE</text></g>
+<g class="f3" transform="translate(505 135)"><rect class="card" width="200" height="72" rx="16" stroke="#facc15"><animate attributeName="stroke-opacity" values=".4;1;.4" dur="4.2s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#5a5007"/><text class="ico" x="38" y="36" fill="#facc15">JS</text><text class="name" x="70" y="31">JavaScript</text><text class="sub" x="70" y="49" fill="#facc15">LANGUAGE</text></g>
+<g class="f1" transform="translate(730 135)"><rect class="card" width="200" height="72" rx="16" stroke="#f97316"><animate attributeName="stroke-opacity" values=".4;1;.4" dur="3.6s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#5b1e0b"/><text class="ico" x="38" y="36" fill="#fb923c">H5</text><text class="name" x="70" y="31">HTML5</text><text class="sub" x="70" y="49" fill="#fb923c">MARKUP</text></g>
+<g class="f2" transform="translate(955 135)"><rect class="card" width="190" height="72" rx="16" stroke="#38bdf8"><animate attributeName="stroke-opacity" values=".4;1;.4" dur="4s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#0c3d66"/><text class="ico" x="38" y="36" fill="#38bdf8">C3</text><text class="name" x="70" y="31">CSS3</text><text class="sub" x="70" y="49" fill="#38bdf8">STYLING</text></g>
+
+<!-- row 2 -->
+<g class="f2" transform="translate(55 230)"><rect class="card" width="200" height="72" rx="16" stroke="#94a3b8"><animate attributeName="stroke-opacity" values=".25;.9;.25" dur="4.4s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#101827"/><text class="ico" x="38" y="36" fill="#ffffff">Fl</text><text class="name" x="70" y="31">Flask</text><text class="sub" x="70" y="49" fill="#cbd5e1">FRAMEWORK</text></g>
+<g class="f3" transform="translate(280 230)"><rect class="card" width="200" height="72" rx="16" stroke="#f59e0b"><animate attributeName="stroke-opacity" values=".3;1;.3" dur="4.8s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#4a2c0c"/><text class="ico" x="38" y="36" fill="#fbbf24">SK</text><text class="name" x="70" y="31">scikit-learn</text><text class="sub" x="70" y="49" fill="#f59e0b">ML LIBRARY</text></g>
+<g class="f1" transform="translate(505 230)"><rect class="card" width="200" height="72" rx="16" stroke="#38bdf8"><animate attributeName="stroke-opacity" values=".3;1;.3" dur="3.5s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#103555"/><text class="ico" x="38" y="36" fill="#7dd3fc">DB</text><text class="name" x="70" y="31">MySQL</text><text class="sub" x="70" y="49" fill="#38bdf8">DATABASE</text></g>
+<g class="f2" transform="translate(730 230)"><rect class="card" width="200" height="72" rx="16" stroke="#f97316"><animate attributeName="stroke-opacity" values=".4;1;.4" dur="4.1s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#4b1d0b"/><text class="ico" x="38" y="36" fill="#fb923c">Git</text><text class="name" x="70" y="31">Git</text><text class="sub" x="70" y="49" fill="#fb923c">VERSIONING</text></g>
+<g class="f3" transform="translate(955 230)"><rect class="card" width="190" height="72" rx="16" stroke="#64748b"><animate attributeName="stroke-opacity" values=".3;1;.3" dur="4.7s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#111827"/><text class="ico" x="38" y="36" fill="#f8fafc">GH</text><text class="name" x="70" y="31">GitHub</text><text class="sub" x="70" y="49" fill="#94a3b8">PLATFORM</text></g>
+
+<!-- row 3 -->
+<g class="f3" transform="translate(55 325)"><rect class="card" width="200" height="72" rx="16" stroke="#0ea5e9"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3.9s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#073b58"/><text class="ico" x="38" y="36" fill="#38bdf8">VS</text><text class="name" x="70" y="31">VS Code</text><text class="sub" x="70" y="49" fill="#38bdf8">EDITOR</text></g>
+<g class="f1" transform="translate(280 325)"><rect class="card" width="200" height="72" rx="16" stroke="#ec4899"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="4.3s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#35122c"/><text class="ico" x="38" y="36" fill="#f9a8d4">IJ</text><text class="name" x="70" y="31">IntelliJ IDEA</text><text class="sub" x="70" y="49" fill="#f472b6">IDE</text></g>
+<g class="f2" transform="translate(505 325)"><rect class="card" width="200" height="72" rx="16" stroke="#f43f5e"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="4.9s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#2e1422"/><circle cx="31" cy="27" r="6" fill="#f24e1e"/><circle cx="45" cy="27" r="6" fill="#ff7262"/><circle cx="31" cy="41" r="6" fill="#a259ff"/><circle cx="45" cy="41" r="6" fill="#1abcfe"/><text class="name" x="70" y="31">Figma</text><text class="sub" x="70" y="49" fill="#fb7185">DESIGN</text></g>
+<g class="f3" transform="translate(730 325)"><rect class="card" width="200" height="72" rx="16" stroke="#38bdf8"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3.7s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#062b45"/><text class="ico" x="38" y="36" fill="#31a8ff">Ps</text><text class="name" x="70" y="31">Photoshop</text><text class="sub" x="70" y="49" fill="#38bdf8">DESIGN</text></g>
+<g class="f1" transform="translate(955 325)"><rect class="card" width="190" height="72" rx="16" stroke="#f59e0b"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="4.5s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#3c2104"/><text class="ico" x="38" y="36" fill="#ff9a00">Ai</text><text class="name" x="70" y="31">Illustrator</text><text class="sub" x="70" y="49" fill="#f59e0b">DESIGN</text></g>
+
+<!-- row 4 -->
+<g class="f1" transform="translate(250 420)"><rect class="card" width="200" height="72" rx="16" stroke="#8b5cf6"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="4.6s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#24104f"/><text class="ico" x="38" y="36" fill="#a78bfa">Ae</text><text class="name" x="70" y="31">After Effects</text><text class="sub" x="70" y="49" fill="#a78bfa">MOTION</text></g>
+<g class="f2" transform="translate(475 420)"><rect class="card" width="200" height="72" rx="16" stroke="#22d3ee"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3.4s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#07384d"/><text class="ico" x="38" y="36" fill="#67e8f9">CC</text><text class="name" x="70" y="31">CapCut</text><text class="sub" x="70" y="49" fill="#22d3ee">VIDEO EDITING</text></g>
+<g class="f3" transform="translate(700 420)"><rect class="card" width="200" height="72" rx="16" stroke="#06b6d4"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="4.2s" repeatCount="indefinite"/></rect><circle cx="38" cy="36" r="20" fill="#073244"/><text class="ico" x="38" y="36" fill="#67e8f9">ML</text><text class="name" x="70" y="31">AI / ML</text><text class="sub" x="70" y="49" fill="#22d3ee">FOCUS AREA</text></g>
+
+<!-- moving network particles -->
+<path d="M150 520 C340 550 470 515 600 535 S900 560 1050 520" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="6 10"/>
+<circle r="6" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="8s" repeatCount="indefinite" path="M150 520 C340 550 470 515 600 535 S900 560 1050 520"/></circle>
+<circle r="4" fill="#a855f7" filter="url(#glow)"><animateMotion dur="8s" begin="-4s" repeatCount="indefinite" path="M1050 520 C900 560 720 515 600 535 S320 550 150 520"/></circle>
+<text x="600" y="565" text-anchor="middle" fill="#64748b" font-family="Consolas,monospace" font-size="10" letter-spacing="3">FLOATING CARDS • PULSING BORDERS • SCAN BEAM • NETWORK PARTICLES</text>
+</svg>
