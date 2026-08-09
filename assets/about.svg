@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-label="Animated Manuja developer about card">
+  <defs>
+    <linearGradient id="outer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06111f"/>
+      <stop offset="100%" stop-color="#020817"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="2" y="2" width="1096" height="356" rx="30" fill="url(#outer)" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="28" y="28" width="1044" height="304" rx="22" fill="#07111f" stroke="#22304a" stroke-width="2"/>
+
+  <circle cx="62" cy="58" r="7" fill="#ff5f56"/>
+  <circle cx="86" cy="58" r="7" fill="#ffbd2e"/>
+  <circle cx="110" cy="58" r="7" fill="#27c93f"/>
+  <text x="148" y="64" fill="#9ecbff" font-family="Consolas,Menlo,monospace" font-size="18">manuja_dev.py</text>
+
+  <g font-family="Consolas,Menlo,monospace" font-size="21">
+    <text x="78" y="118" fill="#66d9ef">class</text>
+    <text x="145" y="118" fill="#f8f8f2">ManujaDeveloper</text>
+    <text x="331" y="118" fill="#f8f8f2">:</text>
+
+    <text x="105" y="164" fill="#f8f8f2">skills</text>
+    <text x="188" y="164" fill="#f8f8f2">=</text>
+    <text x="216" y="164" fill="#7ee787">["Python", "Java", "AI", "Web", "Design"]</text>
+
+    <text x="105" y="205" fill="#f8f8f2">focus</text>
+    <text x="182" y="205" fill="#f8f8f2">=</text>
+    <text x="210" y="205" fill="#7ee787">"Software + creative experiences"</text>
+
+    <text x="105" y="246" fill="#f8f8f2">status</text>
+    <text x="194" y="246" fill="#f8f8f2">=</text>
+    <text x="222" y="246" fill="#67e8f9">"Building something useful..."</text>
+
+    <text x="78" y="300" fill="#67e8f9">print</text>
+    <text x="132" y="300" fill="#f8f8f2">(</text>
+    <text x="145" y="300" fill="#7ee787">"Create. Learn. Improve."</text>
+    <text x="430" y="300" fill="#f8f8f2">)</text>
+    <rect x="455" y="280" width="9" height="24" rx="2" fill="#0ea5e9">
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(920 112)" filter="url(#glow)">
+    <circle r="28" fill="none" stroke="#0ea5e9" stroke-width="4" stroke-dasharray="24 14">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="12" fill="#0ea5e9">
+      <animate attributeName="r" values="10;13;10" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="884" y="175" fill="#9ecbff" font-family="Consolas,Menlo,monospace" font-size="14" letter-spacing="1.5">AI ACTIVE</text>
+
+  <path d="M35 338 H1065" stroke="#7c3aed" stroke-opacity="0.28"/>
+  <circle cx="100" cy="338" r="3" fill="#00e5ff" filter="url(#glow)">
+    <animate attributeName="cx" values="70;1025;70" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>
